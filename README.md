@@ -13,9 +13,7 @@ Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506
 
 This work uses a physics-informed neural network (PINN) to reconstruct continuous three-dimensional magnetic fields and their spatial derivatives
 from discrete magnetic field data. Physics constraints are incorporated into the PINN through the source-free
-magnetostatic Maxwell equations,
-
-$$
+magnetostatic Maxwell equations, $$
 \nabla \cdot \mathbf{B} = 0
 \quad \text{and} \quad
 \nabla \times \mathbf{B} = 0.
