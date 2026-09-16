@@ -80,7 +80,3 @@ If you use the data or code from this repository, please cite the associated man
 ## Data and Code Availability
 
 The data and code supporting the results presented in the manuscript are available through this repository.
-
-## License
-
-License information will be added to this repository.
