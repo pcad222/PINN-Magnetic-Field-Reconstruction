@@ -12,21 +12,24 @@ University of Kentucky, Lexington, KY 40506, USA
 
 ## Overview
 
-This work uses a physics-informed neural network (PINN) to reconstruct continuous three-dimensional magnetic fields and their spatial derivatives from discrete magnetic-field data.
-Physical constraints are incorporated into the PINN through the source-free magnetostatic Maxwell equations,
+This work uses a physics-informed neural network (PINN) to reconstruct continuous three-dimensional magnetic fields and their spatial derivatives
+from discrete magnetic field data. Physical constraints are incorporated into the PINN through the source-free magnetostatic Maxwell equations,
 
 $$
-\nabla \cdot \mathbf{B} = 0,
-$$
+\nabla \cdot \mathbf{B} = 0,$$
 
 and
 
 $$\nabla \times \mathbf{B} = 0.$$
 
-The PINN reconstruction is demonstrated using two significantly different magnetic-field profiles: a highly uniform simulated magnetic field and a
-rapidly varying experimentally measured magnetic field from the Spin-Transport Coils (STCs).
+The method is demonstrated using two significantly different magnetic field profiles: a highly uniform simulated magnetic field and a rapidly varying
+experimentally measured magnetic field from the Spin-Transport Coils (STCs).
 
-For the highly uniform magnetic field, the PINN reconstruction is also compared with a spherical-harmonic (SH) reconstruction.
+For the highly uniform magnetic field, the reconstructed field is compared with the simulated reference field through residual distributions and
+first-order magnetic field gradients. The performance of the PINN is also benchmarked against a spherical-harmonic (SH) reconstruction by comparing
+the reconstructed fields and their first-order spatial gradients.
+
+For the rapidly varying STC field, the PINN is applied to experimental measurements to reconstruct the magnetic-field profile.
 
 ## Repository Structure
 
@@ -35,8 +38,7 @@ For the highly uniform magnetic field, the PINN reconstruction is also compared 
 
 ## Data
 
-The repository contains datasets supporting the magnetic-field
-reconstruction examples presented in the manuscript.
+The repository contains datasets supporting the magnetic field reconstruction examples presented in the manuscript.
 
 The datasets include:
 
@@ -44,19 +46,17 @@ The datasets include:
 - Experimental data for the rapidly varying Spin-Transport Coil (STC) field
 - Measurement-point data used for reconstruction and validation
 
-Magnetic-field datasets contain spatial coordinates and magnetic-field
-components as applicable. Additional information about individual datasets,
-including units and column definitions, is provided with the corresponding
-data files.
+Magnetic-field datasets contain spatial coordinates and magnetic field components as applicable. Additional information about individual datasets,
+including units and column definitions, is provided with the corresponding data files.
 
 ## Code
 
-The repository contains code used to perform the magnetic-field
+The repository contains code used to perform the magnetic field
 reconstruction and analysis presented in the manuscript.
 
 The code includes:
 
-- Physics-informed neural-network (PINN) training and reconstruction
+- Physics-informed neural network (PINN) training and reconstruction
 - Evaluation of the Maxwell-equation constraints
   $\nabla \cdot \mathbf{B}$ and $\nabla \times \mathbf{B}$
 - Calculation of magnetic-field spatial derivatives
@@ -78,7 +78,7 @@ Detailed package dependencies and versions can be provided in a
 
 ## Usage
 
-Instructions for reproducing the magnetic-field reconstructions and
+Instructions for reproducing the magnetic field reconstructions and
 analysis are provided with the corresponding code.
 
 ## Citation
@@ -91,7 +91,6 @@ Full citation information will be added following publication.
 
 The data and code supporting the results presented in the manuscript are available through this repository.
 
-A permanent archival DOI will be provided through Zenodo.
 
 ## License
 
