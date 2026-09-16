@@ -14,12 +14,7 @@ Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506
 This work uses a physics-informed neural network (PINN) to reconstruct continuous three-dimensional magnetic fields and their spatial derivatives
 from discrete magnetic field data. Physics constraints are incorporated into the PINN through the source-free magnetostatic Maxwell equations,
 
-$$
-\nabla \cdot \mathbf{B} = 0,$$
-
-and
-
-$$\nabla \times \mathbf{B} = 0.$$
+$$ \nabla \cdot \mathbf{B} = 0, and \nabla \times \mathbf{B} = 0.$$
 
 The method is demonstrated using two significantly different magnetic field profiles: a highly uniform simulated magnetic field and a rapidly varying
 experimentally measured magnetic field from the Spin-Transport Coils (STCs).
