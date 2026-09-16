@@ -41,11 +41,11 @@ The repository contains datasets supporting the magnetic field reconstruction pr
 The datasets include:
 
 - Simulated data for a highly uniform magnetic field
-- Experimental data for the rapidly varying Spin Transport Coil (STC) field
+- Experimental data for the rapidly varying Spin-Transport Coil (STC) field
 
-The magnetic field datasets contain the spatial coordinates `x`, `y`, and `z` and the corresponding magnetic field components `Bx`, `By`, and `Bz`.
+The magnetic field datasets contain spatial coordinates `x`, `y`, and `z` and the corresponding magnetic field components `bx`, `by`, and `bz`.
+Additional information is provided in the respective dataset descriptions in the `data/` directory.
 
-For the highly uniform magnetic field dataset, the spatial coordinates `x`, `y`, and `z` are given in meters (m), and the magnetic field components `Bx`, `By`, and `Bz` are given in nanotesla (nT). For the STC dataset, the spatial coordinates `x`, `y`, and `z` are given in centimeters (cm), and the magnetic field components `Bx`, `By`, and `Bz` are given in microtesla (µT).
 
 ## Code
 
