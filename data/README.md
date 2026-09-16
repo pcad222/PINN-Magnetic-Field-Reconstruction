@@ -47,14 +47,6 @@ used in the following order:
 The spatial coordinates `x`, `y`, and `z` are given in centimeters (cm), and the magnetic field components `bx`, `by`, and `bz` are given in
 microtesla (µT).
 
-
-The STC data are read in the analysis using:
-
-```python
-df = pd.read_csv(file, header=None, sep=r"\s+").iloc[:, :7]
-df.columns = ["x", "y", "z", "i", "bx", "by", "bz"]
-```
-
 ## Directory Structure
 
 ```text
