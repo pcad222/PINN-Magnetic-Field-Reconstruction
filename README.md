@@ -29,10 +29,6 @@ measurement points on the reconstruction is also investigated.
 
 For the rapidly varying STC field, the PINN is applied to experimental measurements to reconstruct the magnetic field profile.
 
-## Repository Structure
-
-- `data/` — datasets used for magnetic field reconstruction and analysis
-
 ## Data
 
 The repository contains datasets supporting the magnetic field reconstruction presented in the manuscript.
