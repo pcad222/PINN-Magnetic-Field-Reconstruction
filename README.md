@@ -1,6 +1,6 @@
 # PINN Magnetic Field Reconstruction
 
-This repository contains the data and code associated with the manuscript:
+This repository contains the data associated with the manuscript:
 
 **"Reconstruction of Magnetic Fields with a Physics-Informed Neural Network"**
 
@@ -32,7 +32,6 @@ For the rapidly varying STC field, the PINN is applied to experimental measureme
 ## Repository Structure
 
 - `data/` — datasets used for magnetic field reconstruction and analysis
-- `code/` — code used for PINN training, reconstruction, and analysis
 
 ## Data
 
@@ -47,25 +46,11 @@ The magnetic field datasets contain spatial coordinates `x`, `y`, and `z` and th
 Additional information is provided in the respective dataset descriptions in the `data/` directory.
 
 
-  
-## Requirements
-
-The analysis was performed in Python using packages including:
-
-- PyTorch
-- NumPy
-- Pandas
-- SciPy
-- Matplotlib
-
-## Usage
-
-Instructions for reproducing the magnetic field reconstructions and analysis are provided with the corresponding code.
 
 ## Citation
 
-If you use the data or code from this repository, please cite the associated manuscript.
+If you use the data from this repository, please cite the associated manuscript.
 
-## Data and Code Availability
+## Data  Availability
 
-The data and code supporting the results presented in the manuscript are available through this repository.
+The data supporting the results presented in the manuscript are available through this repository.
