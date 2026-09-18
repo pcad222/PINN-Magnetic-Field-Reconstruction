@@ -1,8 +1,6 @@
 # PINN Magnetic Field Reconstruction
 
-This repository contains the data associated with the manuscript:
-
-**"Reconstruction of Magnetic Fields with a Physics-Informed Neural Network"**
+This repository contains the data associated with the manuscript: **"Reconstruction of Magnetic Fields with a Physics-Informed Neural Network"**
 
 ## Authors
 
