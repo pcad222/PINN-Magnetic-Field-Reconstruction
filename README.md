@@ -47,17 +47,6 @@ The magnetic field datasets contain spatial coordinates `x`, `y`, and `z` and th
 Additional information is provided in the respective dataset descriptions in the `data/` directory.
 
 
-## Code
-
-The repository contains code used to perform the magnetic field reconstruction and analysis presented in the manuscript.
-
-The code includes:
-
-- Physics-informed neural network (PINN) training and reconstruction
-- Evaluation of the Maxwell-equation constraints
-  $\nabla \cdot \mathbf{B}$ and $\nabla \times \mathbf{B}$
-- Calculation of magnetic-field spatial derivatives
-- Spherical-harmonic reconstruction and comparison
   
 ## Requirements
 
