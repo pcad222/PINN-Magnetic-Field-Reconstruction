@@ -41,12 +41,10 @@ The function returns the trained model results, including:
 The spherical-harmonic model can be run as follows:
 
 ```python
-sh_prediction_540_df, sh_glm_540_df, sh_linear_gradient_540_df = (
-    sh.spherical_harmonics(540, l_max=3)
-)
+sh_prediction_540_df, sh_glm_540_df, sh_linear_gradient_540_df = ( sh.spherical_harmonics(540, l_max=3))
 ```
 
-Here, `540` is the number of measurement points and `l_max=3` is the maximum degree of the spherical-harmonic expansion. Replace `540` with `135` or `1080` to use another measurement configuration.
+`540` is the number of measurement points and `l_max=3` is the maximum degree of the spherical-harmonic expansion. Replace `540` with `135` or `1080` to use another measurement configuration.
 
 ## Figures and tables 
 
