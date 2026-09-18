@@ -2,13 +2,13 @@
 # Code for Uniform Magnetic-Field 
 
 This directory contains the code used to train, reconstruct, and analyze the uniform magnetic field using a physics-informed neural network (PINN) and spherical harmonics (SH).
-
 ## Files
 
 - `physics_informed_neural_network.py`: Trains the PINN, reconstructs the magnetic field, and computes the field gradients and Maxwell-equation metrics.
 - `spherical_harmonics.py`: Fits the measurement data using spherical harmonics, computes the \(g_{lm}\) coefficients, and reconstructs the magnetic field.
-- `uniform_field_analysis.ipynb`: Runs the PINN and SH analyses, compares their results, and generates the figures and tables.
+- **`uniform_field_analysis.ipynb` (main analysis notebook):** Runs the PINN and SH analyses, compares their results, and generates the figures and tables.
 
+> **Note:** `uniform_field_analysis.ipynb` automatically uses the supporting custom modules `physics_informed_neural_network.py` and `spherical_harmonics.py`
 
 
 ## Running the analysis
