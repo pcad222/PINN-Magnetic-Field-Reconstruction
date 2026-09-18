@@ -22,7 +22,7 @@ project_dir = Path("/path/to/PINN-Magnetic-Field-Reconstruction")
 ```
 
 
-5. Run all notebook cells in order.
+- Run all notebook cells in order.
 
 ## PINN reconstruction
 
@@ -48,7 +48,7 @@ sh_prediction_540_df, sh_glm_540_df, sh_linear_gradient_540_df = (
 
 Here, `540` is the number of measurement points and `l_max=3` is the maximum degree of the spherical-harmonic expansion. Replace `540` with `135` or `1080` to use another measurement configuration.
 
-## Output
+## Figures and tables 
 
 The analysis notebook generates:
 
